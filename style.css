@@ -22,32 +22,55 @@ header{
     border-radius: 50%;
 }
 nav > ul{
-    width: 50vw;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: right;
     text-align: center;
 }
 li{
     display: list-item;
     text-align: justify; 
     list-style: none;
-    margin-top: 4%;
+    margin: 0;
+    padding: 20px;
+}
+li:hover{
+    background-color: lightslategrey;
 }
 a{
     text-decoration: none;
     color: ivory;
+    font-weight: 700;
+    font-size: 20px;
 }
 video{
     margin-top: 100px;
     width: 50%;
     height: 50%;
 }
-div#parte1{
+div#partevideo{
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-    
+div#livro1{
+    display: flex;
+    flex-direction: row;
+}
+#figure1{
+    margin: 20px;
+    background-color: rgb(247, 247, 247);
+    padding: 20px;
+}    
+img#fotolivro {
+    width: 400px;
+    height: 400px;
+}
+p#descricaolivro{
+    width: 800px;
+    padding: 30px;
+    text-align: justify;
+}
