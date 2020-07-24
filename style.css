@@ -13,14 +13,31 @@ header{
     position: fixed;
     padding: 10px;
 }
-#logo{
-    margin-left: 10px;
-    margin-right: 200px;
-}
 #header-img{
     width: 60px;
     border-radius: 50%;
 }
+#logo{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+ #nav-bar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+nav > ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    text-align: center;
+
+
+@media (min-width:700px){
+
+
+
 nav > ul{
     width: 100%;
     display: flex;
@@ -33,7 +50,7 @@ li{
     text-align: justify; 
     list-style: none;
     margin: 0;
-    padding: 20px;
+    padding: 10px;
 }
 li:hover{
     background-color: lightslategrey;
@@ -56,21 +73,24 @@ div#partevideo{
     justify-content: center;
     align-items: center;
 }
-div#livro1{
+div.livro1{
     display: flex;
-    flex-direction: row;
+    flex-direction: row ;
 }
-#figure1{
+.figure1{
     margin: 20px;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(255, 255, 255);
     padding: 20px;
 }    
-img#fotolivro {
+img.fotolivro {
     width: 400px;
-    height: 400px;
+    
 }
-p#descricaolivro{
-    width: 800px;
-    padding: 30px;
+div.descricaolivro{
+    width: 50vw;
+    min-width:  400px;
     text-align: justify;
+    margin: 20px;
+    
+}
 }
