@@ -1,0 +1,96 @@
+*{margin :0;
+padding: o;}
+body{
+    background-color: rgb(255, 239, 228);
+    font-family: 'Roboto Condensed', sans-serif;
+} 
+header{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between ;
+    align-content: center;
+    position: fixed;
+    padding: 10px;
+}
+#header-img{
+    width: 60px;
+    border-radius: 50%;
+}
+#logo{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+ #nav-bar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+nav > ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    text-align: center;
+
+
+@media (min-width:700px){
+
+
+
+nav > ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    text-align: center;
+}
+li{
+    display: list-item;
+    text-align: justify; 
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+li:hover{
+    background-color: lightslategrey;
+}
+a{
+    text-decoration: none;
+    color: ivory;
+    font-weight: 700;
+    font-size: 20px;
+}
+video{
+    margin-top: 100px;
+    width: 50%;
+    height: 50%;
+}
+div#partevideo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.livro1{
+    display: flex;
+    flex-direction: row ;
+}
+.figure1{
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}    
+img.fotolivro {
+    width: 400px;
+    
+}
+div.descricaolivro{
+    width: 50vw;
+    min-width:  400px;
+    text-align: justify;
+    margin: 20px;
+    
+}
+}
