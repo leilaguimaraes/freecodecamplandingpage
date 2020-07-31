@@ -128,6 +128,7 @@ div#queroaminha{
     width: 917px;
     height: 46px;
     background: #FFADAD;
+    margin: auto;
     margin-top: 275px;
 }
 
@@ -149,4 +150,29 @@ div#conjuntofotos{
     width: 360px;
     height: 540px;
     filter: drop-shadow(4.91777px 4.09814px 19.6711px rgba(0, 0, 0, 0.25));
+}
+
+div#contato{
+    width: 360px;
+    margin: auto;
+    margin-top: 43px;
+} 
+
+div#contatoespecifico{
+    display: flex;
+    flex-direction: row;
+    font-size: 35px;
+    color: #FFADAD;
+    margin: 5px;
+}
+#email{
+    font-size: 35px;
+    color: #FFADAD;
+    text-align: center;
+    margin-top: 100px;
+}
+input{
+    width: 807px;
+    height: 69px;
+    font-size: 30px;
 }
