@@ -98,7 +98,9 @@ div#oquesao{
     margin-top: 195px;
 }
 form{
-    margin-top: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
 }
 #oquesaoconteudo{
     margin-top: 207px;
@@ -122,7 +124,7 @@ div#tituloopcoes{
     width: 917px;
     height: 46px;
     background: #FFADAD;
-    margin-top: 164px;
+    margin-top: 100px;
 }
 div#queroaminha{
     width: 917px;
@@ -136,7 +138,7 @@ div#conjuntofotos{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 138px;
+    margin-top: 50px;
     width: 100%;
 }
 .imagensmenores{
@@ -165,14 +167,29 @@ div#contatoespecifico{
     color: #FFADAD;
     margin: 5px;
 }
-#email{
+
+div#cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#chamadaemail{
     font-size: 35px;
     color: #FFADAD;
     text-align: center;
     margin-top: 100px;
 }
-input{
-    width: 807px;
-    height: 69px;
+input#email{
+    width: 70%;
+    height: 50px;
+    font-size: 30px;
+    color: #FFADAD;
+    margin-top: 20px;
+}
+input#submit{
+    width: 20%;
+    padding:10px;
+    background-color: #FFD5D5;
     font-size: 30px;
 }
