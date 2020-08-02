@@ -1,5 +1,7 @@
 *{margin:0;
 padding: 0;}
+
+
 body{
     background-image: url(./background.png);
     background-repeat: no-repeat;
@@ -99,8 +101,7 @@ div#oquesao{
 }
 form{
     margin-top: 50px;
-    display: flex;
-    flex-direction: row;
+    display: inline
 }
 #oquesaoconteudo{
     margin-top: 207px;
@@ -185,11 +186,45 @@ input#email{
     height: 50px;
     font-size: 30px;
     color: #FFADAD;
-    margin-top: 20px;
+     margin-top: 10px;
 }
 input#submit{
     width: 20%;
-    padding:10px;
     background-color: #FFD5D5;
-    font-size: 30px;
+    font-size: 25px;
+    height: 65px;
+    color: white;
+    border-radius: 10px;
+    border-color: white
+}
+
+@media (max-width: 900px){
+    li, #titulopagina{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        font-size: 50px;
+    }
+    #nav{
+        width: 500px;
+        height: 150px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    #header {
+        position: fixed ;
+        width: 100%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+    }
+    div#oquesao{
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+    }
+
 }
